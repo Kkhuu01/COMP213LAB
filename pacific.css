@@ -1,26 +1,54 @@
 body
 {
+    font-family: Arial, Helvetica, sans-serif;  
     background-color: #FFFFFF;
     color: #666666;
 }
 
 header
 {
+    background: url(sunset.jpg);   
+    line-height:400%;
+    text-indent:1em;
     background-color: #000033;
     color: #FFFFFF;
 }
 
-nav
+body nav
 {
+    text-decoration:none;
+    font-weight:bold;
     background-color: #90C7E3;
+}
+h1
+{
+    font-style: Georgia, "Times New Roman", "serif font typeface";
 }
 
 h2
 {
     color: #000033;
+    font-style: Georgia, "Times New Roman", "serif font typeface";
 }
-
+h3
+{
+    font-style: Georgia, "Times New Roman", "serif font typeface";
+    color: #000033;
+}
 .resort
 {
+    font-weight: bold;
     color: #5C7FA3;
+}
+ul
+{
+    list-style-image: url(marker.gif);
+}
+footer
+{
+    font-size:75%;
+}
+div
+{
+    font-size: 90%;
 }
