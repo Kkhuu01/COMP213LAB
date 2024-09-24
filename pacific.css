@@ -7,32 +7,28 @@ body
 
 header
 {
-    background: url(sunset.jpg);   
+    background: url(images/sunset.jpg) no-repeat right;   
     line-height:400%;
     text-indent:1em;
     background-color: #000033;
     color: #FFFFFF;
 }
 
-body nav
+nav a
 {
-    text-decoration:none;
     font-weight:bold;
     background-color: #90C7E3;
 }
-h1
+h1, h2, h3
 {
-    font-style: Georgia, "Times New Roman", "serif font typeface";
+    font-family: Georgia, "Times New Roman", "serif font typeface";
 }
-
 h2
 {
     color: #000033;
-    font-style: Georgia, "Times New Roman", "serif font typeface";
 }
 h3
 {
-    font-style: Georgia, "Times New Roman", "serif font typeface";
     color: #000033;
 }
 .resort
@@ -42,13 +38,17 @@ h3
 }
 ul
 {
-    list-style-image: url(marker.gif);
+    list-style-image: url(Images/marker.gif);
 }
 footer
 {
     font-size:75%;
 }
 div
+{
+    font-size: 90%;
+}
+#contact
 {
     font-size: 90%;
 }
