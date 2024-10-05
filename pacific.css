@@ -52,3 +52,22 @@ div
 {
     font-size: 90%;
 }
+table
+{
+    border: 2px #3399CC;
+    border-collapse: collapse;
+}
+tr:nth-of-type(2n)
+{
+    background-color: #F5FAFC;
+}
+td,  th
+{
+    padding: 0.5em;
+    border: 2px;
+    border-color: #3399CC;
+}
+td
+{
+    text-align: center;
+}
