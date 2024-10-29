@@ -61,7 +61,7 @@ nav
 nav a
 {
     font-weight:bold;
-    background-color: #90C7E3;
+
 }
 h1, h2, h3
 {
@@ -74,7 +74,7 @@ h1
 h2
 {
     color: #000033;
-    text-shadow: 1px;
+    text-shadow: 1px 1px #cccccc;
     color: #cccccc;
 }
 h3
