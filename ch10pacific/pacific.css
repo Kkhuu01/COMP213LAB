@@ -10,9 +10,9 @@ body
 }
 #wrapper
 {
-    position: center;
+    margin:auto;
     width: 80%;
-       background-image: linear-gradient(#FFFFFF, #90C7E3);
+    background-image: linear-gradient(#FFFFFF, #90C7E3);
     background-repeat: no-repeat;
     min-width: 960px;
     max-width: 2048px;
@@ -78,15 +78,15 @@ nav ul
     padding: 0;
     font-size: 1.2em;
 }
-nav ul:link
+nav a:link
 {
     color: #5C7FA3;
 }
-nav ul:visited
+nav a:visited
 {
     color:#344873;
 }
-nav ul:hover
+nav a:hover
 {
     color:#A52A2A;
 }
