@@ -25,7 +25,6 @@ body
     background-image: url("images/coast.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    margin-left: 190px;
 }
 #yurtHero
 {
@@ -33,7 +32,6 @@ body
     background-image:url("images/yurt.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    margin-left: 190px;
 }
 #trailHero
 {
@@ -41,7 +39,6 @@ body
     background-image:url("images/trail.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    margin-left: 190px;
 }
 header
 {
