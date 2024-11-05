@@ -1,18 +1,22 @@
 body
 {
     font-family: Arial, Helvetica, sans-serif;  
-    background-image: linear-gradient(#FFFFFF, #90C7E3);
-    background-repeat: no-repeat;
+    background-color:#88D8ED;
     color: #666666;
 }
-
+*
+{
+    box-sizing: border-box;
+}
 #wrapper
 {
     position: center;
     width: 80%;
-    background-color: #FFFFFF;
+       background-image: linear-gradient(#FFFFFF, #90C7E3);
+    background-repeat: no-repeat;
     min-width: 960px;
     max-width: 2048px;
+    border: 1px solid #000033;
     box-shadow: 3px 3px #333333;
 }
 #homeHero
@@ -21,6 +25,7 @@ body
     background-image: url("images/coast.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    margin-left: 190px;
 }
 #yurtHero
 {
@@ -28,6 +33,7 @@ body
     background-image:url("images/yurt.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    margin-left: 190px;
 }
 #trailHero
 {
@@ -35,33 +41,54 @@ body
     background-image:url("images/trail.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    margin-left: 190px;
 }
 header
 {
-    background: url(images/sunset.jpg) no-repeat right;   
+    
     background-color: #000033;
     color: #FFFFFF;
     text-align: center;
-    height: 60px;
-    padding-top: 15px;
+    height: 120px;
+    padding-top: 30px;
+    padding-left: 3em;
 }
 main
 {
-    padding-top: 1px;
-    padding-right: 20px;
-    padding-left: 20px;
-    padding-bottom: 20px;
+    padding: 1px 20px 20px 20px;
+    margin-left: 190px;
+    padding-left:30px;
+    background-color: #FFFFFF;
 }
 nav
 {
-    background-color: #FFFFFF;
-    text-align: center;
-    padding: 10px;
+    float:left;
+    width:160px;
+    font-size: 120%;
+    padding: 1.5em;
 }
 nav a
 {
     font-weight:bold;
-
+}
+nav ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 1.2em;
+}
+nav ul:link
+{
+    color: #5C7FA3;
+}
+nav ul:visited
+{
+    color:#344873;
+}
+nav ul:hover
+{
+    color:#A52A2A;
 }
 h1, h2, h3
 {
@@ -70,6 +97,8 @@ h1, h2, h3
 h1
 {
     margin-top:0;
+    font-size: 3em;
+    letter-spacing: 0.25em;
 }
 h2
 {
@@ -86,7 +115,7 @@ h3
     font-weight: bold;
     color: #5C7FA3;
 }
-ul
+main ul
 {
     list-style-image: url(Images/marker.gif);
 }
@@ -94,6 +123,8 @@ footer
 {
     font-size:75%;
     padding: 20px;
+    margin-left: 190px;
+    background-color: #FFFFFF;
 }
 div
 {
