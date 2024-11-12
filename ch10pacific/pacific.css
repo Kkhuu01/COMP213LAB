@@ -8,6 +8,17 @@ body
 {
     box-sizing: border-box;
 }
+Header, main, nav, footer, figure, figcaption, aside, section, article { 
+    display: block; }
+#mobile
+{
+    display:none;
+}
+#desktop
+{
+    display:inline;
+}
+
 #wrapper
 {
     margin:auto;
@@ -42,7 +53,6 @@ body
 }
 header
 {
-    
     background-color: #000033;
     color: #FFFFFF;
     text-align: center;
@@ -101,7 +111,6 @@ h2
 {
     color: #000033;
     text-shadow: 1px 1px #cccccc;
-    color: #cccccc;
 }
 h3
 {
@@ -173,3 +182,68 @@ input, textarea
 
 input [ type=”submit”]
 { margin-left: 0; }
+
+@media only screen and (max-width:1024px)
+{
+    body{
+        margin: 0px;
+        background-color: #FFFFFF;
+    }
+    #wrapper
+    {
+        min-width: 0px;
+        width: auto;
+        box-shadow: none;
+        border: none;
+    }
+    header{
+        padding: 0.5em 0em;
+        height: auto;
+    }
+    h1{
+        letter-spacing: 0.1rem;
+    }
+    main{
+        margin-left:0px;
+    }
+    nav{
+        float:none;
+        width: auto;
+        text-align: center;
+        padding:0.5em;
+    }
+    nav li{
+        display: inline;
+        padding: 0.25em 0.75em;
+    }
+    #homeHero, #yurtHero, #trailHero{
+        margin-left:0px;
+        height: 200px;
+    }
+
+}
+@media only screen and (max-width: 600px)
+{
+    main{
+        padding: 0.1em 1em;
+        font-size: 90%;
+    }
+    h1{
+        font-size: 2em;
+    }
+    nav{
+        padding:0px;
+    }
+    nav li{
+        display: block;
+        margin: 0px;
+        border-bottom: 2px solid #330000;
+    }
+    nav a{
+        display:block;
+    }
+    #homeHero, #yurtHero, #trailHero{
+        background-image: none;
+        height:0px;
+    }
+}
